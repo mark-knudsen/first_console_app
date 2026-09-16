@@ -1,4 +1,11 @@
-﻿Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
+
+
+int number = 100;
+float myFloat = 20.00;
+
+Console.WriteLine($"number: {number}, myFloat: {myFloat}");
+Console.ReadLine();
 
 byte myByte = 255; // Maximum value for a byte
 int myInt = 2147483647; // Maximum value for an int
